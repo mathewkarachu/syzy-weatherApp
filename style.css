@@ -1,5 +1,5 @@
 body{
-    
+    background-attachment: fixed;
    overflow: hidden;
    height: 100vh;
     text-align: center;
@@ -12,7 +12,7 @@ body{
     background: linear-gradient(to top, #4facfe,#00f2fe );
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-
+    
 }
 #wins{
     margin-top: ;
@@ -66,7 +66,7 @@ body{
 
     
     font-weight: bold;
-    font-size: 2.5vw;
+    font-size: 6.5vw;
     color: rgba(255, 255, 255, 0.982);
 }
 .temp{
@@ -104,6 +104,7 @@ h1{
 
  }  
 #all{
+    background-attachment: fixed;
     height: 100vh;
     width:max-content;
     text-align: center;
