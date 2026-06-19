@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="lightning.png">
+    
+    <title>Syzy WeatherAPP</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+   
+    
+
+<body>
+     <div id="all">
+        <div>
+            
+        <div id="city_name">San Francisco, CA 🌍</div>
+        <div id="top">
+            <input id="city" placeholder="Enter City">
+            <button id="dn" type="button" onclick="GetWeatherData()"
+            onmouseout="this.classList.add('done')"
+             class="done">DONE</button>
+        </div>
+        <div id="emoji">⛅</div>
+        <h1 id="main">68°</h1>
+        <p id="desc">Partly Cloudy</p>
+        <small id="s">Feels like 66°</small>
+        <div id="card">
+            <div id="humidity" class="humidity">
+                <p>💧</p>
+                <p class="element">Humidity</p>
+                <P id="hum">56%</P>
+
+            </div>
+            <div id="wind" class="wind">
+                <p>💨</p>
+                <p class="element" id="wind" >wind</p>
+                <p  id="wins">8mph</p>
+            </div>
+            <div id="temp" class="temp">
+                <p>🌡️</p>
+                <p class="element">Temp</p>
+                <p id="tem">66°</p>
+            </div>
+
+        </div>
+        </div>
+    
+    </div>
+        
+   <script src="script.js"></script>
+    
+</body>
+</html>
